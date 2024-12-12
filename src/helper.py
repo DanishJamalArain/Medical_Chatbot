@@ -3,6 +3,9 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
 
 
+PINECONE_API_KEY ="pcsk_78DN3L_DoHkTvuX5AarJBbp929P7tQdTeJERVAz68sTW5R6F3AHoScCuEqzHyXBsk1mUrw"
+OPENAI_API_KEY ="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"
+
 #Extract Data From the PDF File
 def load_pdf_file(data):
     loader= DirectoryLoader(data,
