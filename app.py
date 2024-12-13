@@ -20,7 +20,7 @@ OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 
 # # Directly assign the API keys here
 PINECONE_API_KEY ="pcsk_78DN3L_DoHkTvuX5AarJBbp929P7tQdTeJERVAz68sTW5R6F3AHoScCuEqzHyXBsk1mUrw"
-OPENAI_API_KEY ="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"
+OPENAI_API_KEY ="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"
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
